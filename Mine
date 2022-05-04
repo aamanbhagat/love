@@ -1,0 +1,1 @@
+./t-rex -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF,ID=Aman
