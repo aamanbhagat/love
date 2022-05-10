@@ -1,5 +1,6 @@
 ./t-rex -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF,ID=Aman
 
+https://colab.research.google.com/drive/1b9H5Wvj61I7PcZVzo_BIRj-FKW1TAFaD#scrollTo=P9OkxOSosc9-
 
 
 ! apt update -y  
