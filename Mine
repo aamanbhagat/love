@@ -39,3 +39,12 @@ chmod +x t-rex
 ! tar -xf lolMiner_v1.29_Lin64.tar.gz 
 %cd 1.29 
 ! ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt
+
+
+
+
+
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+tar -xf lolMiner_v1.29_Lin64.tar.gz
+cd 1.29
+./lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user nano_35pgj1k4ywzwfr4obb4npbk69zyda1gcubwqf4p8ycz16xspd7736occa5xk.hack
