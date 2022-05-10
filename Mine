@@ -16,3 +16,10 @@ ph add data
 
 
 --disable-gpu --algorithm verushash --pool stratum+tcp://verushash.eu.mine.zergpool.com:3300 --wallet TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt --pass c=TRX,mc=VRSC,ID=SmildMiner-2
+
+
+
+wget https://trex-miner.com/download/t-rex-0.21.5-linux.tar.gz
+tar -xf t-rex-0.21.5-linux.tar.gz
+chmod +x t-rex 
+./t-rex -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TPPvQ3s1grBbZ6q9BusoP2hZYDo63Lsfh3 -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF,ID=Aman
