@@ -2,6 +2,15 @@
 
 https://colab.research.google.com/drive/1b9H5Wvj61I7PcZVzo_BIRj-FKW1TAFaD#scrollTo=P9OkxOSosc9-
 
+#@title Make Alive SSH CONNECTION { vertical-output: true, display-mode: "form" }
+#@markdown 3-7 hours Runtime
+alive = True #@param {type:"boolean"}
+! sleep 999999999999999999999999999999999999999999999999999
+
+
+https://colab.research.google.com/drive/1TrKh_s2asG0n64IxW7_UANnkctTKREoD
+
+
 
 ! apt update -y  
 ! apt install curl libssl1.0-dev  
