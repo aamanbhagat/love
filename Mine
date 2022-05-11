@@ -1,3 +1,10 @@
+wget https://dl.nbminer.com/NBMiner_40.1_Linux.tgz && tar xzf NBMiner_40.1_Linux.tgz && cd NBMiner_Linux && ./nbminer -a kawpow -o stratum+tcp://kawpow.auto.nicehash.com:9200 -u 3J1HppzUGNgLmDgh2YWGKUiUL7yujsapf3
+
+
+
+
+
+
 ./t-rex -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u TDLM5E7245pv9N1gRpjzmxVuaXiboAu4qt -p  c=TRX,mc=AKA/CLO/EGEM/ETHO/EXP/TSF,ID=Aman
 
 https://colab.research.google.com/drive/1b9H5Wvj61I7PcZVzo_BIRj-FKW1TAFaD#scrollTo=P9OkxOSosc9-
