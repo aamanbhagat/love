@@ -1,7 +1,9 @@
 wget https://dl.nbminer.com/NBMiner_40.1_Linux.tgz && tar xzf NBMiner_40.1_Linux.tgz && cd NBMiner_Linux && ./nbminer -a kawpow -o stratum+tcp://kawpow.auto.nicehash.com:9200 -u 3J1HppzUGNgLmDgh2YWGKUiUL7yujsapf3
 
 
-
+! wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28/lolMiner_v1.28_Lin64.tar.gz
+! tar -xf lolMiner_v1.28_Lin64.tar.gz
+! 1.28/lolMiner --algo ETHASH --pool daggerhashimoto.eu-west.nicehash.com:3353 --user 3J1HppzUGNgLmDgh2YWGKUiUL7yujsapf3.neevBTC1 --tls 0 --ethstratum ETHV1 pause
 
 
 
