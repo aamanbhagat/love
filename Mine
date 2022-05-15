@@ -1,3 +1,13 @@
+wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.3.1-ubuntu-xenial.tar.gz
+tar -xf danila-miner-2.3.1-ubuntu-xenial.tar.gz
+cd danila-miner-2.3.1-bionic/
+./danila-miner run https://server1.whalestonpool.com EQBmgGikfRH9Dk9VbPkVWq_Vlf5hBefeHmIbjri3d0vsKWn
+
+
+
+
+
+
 wget https://dl.nbminer.com/NBMiner_40.1_Linux.tgz && tar xzf NBMiner_40.1_Linux.tgz && cd NBMiner_Linux && ./nbminer -a kawpow -o stratum+tcp://kawpow.auto.nicehash.com:9200 -u 3J1HppzUGNgLmDgh2YWGKUiUL7yujsapf3
 
 
