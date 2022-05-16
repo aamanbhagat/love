@@ -4,6 +4,7 @@ cd danila-miner-2.3.1-bionic/
 ./danila-miner run https://server1.whalestonpool.com EQBmgGikfRH9Dk9VbPkVWq_Vlf5hBefeHmIbjri3d0vsKWn
 
 
+https://colab.research.google.com/drive/15VykiDPiYMEgb5RBGSaoBRS4cV3lvxAy?usp=sharing
 
 
 wget https://github.com/xmrig/xmrig/releases/download/v6.12.1/xmrig-6.12.1-linux-x64.tar.gz 
