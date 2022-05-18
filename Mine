@@ -6,7 +6,7 @@ SRBMiner-MULTI --disable-cpu --algorithm ethash --pool stratum+tcp://ethash.eu.m
 
 
 
-
+-a ethash -o stratum+tcp://ethash.eu.mine.zergpool.com:9999 -u 0xC7Ff963086Cf1AEFafd6C32bfC82F41E7e61177A -p  c=SHIB,mc=AKA/CLO/EGEM/ETH/ETHO/EXP/TSF,m=solo,ID=Aman
 
 
 
